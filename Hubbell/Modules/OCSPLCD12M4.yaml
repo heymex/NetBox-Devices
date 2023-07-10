@@ -1,0 +1,33 @@
+---
+manufacturer: Hubbell
+model: Fiber Splice Cassette, 12 Fibers, Aqua LC Duplex Adapters OM3/OM4
+part_number: OCSPLCD12M4
+front-ports:
+  - name: '01'
+    type: lc
+    rear_port: '01'
+    rear_port_position: 1
+  - name: '02'
+    type: lc
+    rear_port: '01'
+    rear_port_position: 2
+  - name: '03'
+    type: lc
+    rear_port: '01'
+    rear_port_position: 3
+  - name: '04'
+    type: lc
+    rear_port: '01'
+    rear_port_position: 4
+  - name: '05'
+    type: lc
+    rear_port: '01'
+    rear_port_position: 5
+  - name: '06'
+    type: lc
+    rear_port: '01'
+    rear_port_position: 6
+rear-ports:
+  - name: '01'
+    type: mpo
+    positions: 6

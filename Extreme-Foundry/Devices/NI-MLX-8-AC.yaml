@@ -1,0 +1,53 @@
+---
+manufacturer: Extreme Networks
+model: NI-MLX-8-AC
+slug: extreme-networks-br-mlx-8-ac
+part_number: NI-MLX-8-AC
+u_height: 7
+is_full_depth: true
+power-ports:
+  - name: PSU1
+    type: iec-60320-c20
+    maximum_draw: 1800
+  - name: PSU2
+    type: iec-60320-c20
+    maximum_draw: 1800
+  - name: PSU3
+    type: iec-60320-c20
+    maximum_draw: 1800
+  - name: PSU4
+    type: iec-60320-c20
+    maximum_draw: 1800
+module-bays:
+  - name: F1
+  - name: F2
+  - name: F3
+  - name: M1
+  - name: M2
+  - name: PSU1
+  - name: PSU2
+  - name: PSU3
+  - name: PSU4
+  - name: S1
+    position: 1
+  - name: S2
+    position: 2
+  - name: S3
+    position: 3
+  - name: S4
+    position: 4
+  - name: S5
+    position: 5
+  - name: S6
+    position: 6
+  - name: S7
+    position: 7
+  - name: S8
+    position: 8
+console-ports:
+  - name: Serial
+    type: de-9
+interfaces:
+  - name: Management 1
+    type: 1000base-t
+    mgmt_only: true

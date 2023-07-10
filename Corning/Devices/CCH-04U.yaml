@@ -1,0 +1,21 @@
+---
+manufacturer: Corning
+model: CCH Series Fiber Optic Rack Mount Enclosure, 4U, 12 CCH Panel
+slug: corning-cch04u
+part_number: CCH-04U
+u_height: 4
+is_full_depth: false
+subdevice_role: parent
+module-bays:
+  - name: A
+  - name: B
+  - name: C
+  - name: D
+  - name: E
+  - name: F
+  - name: G
+  - name: H
+  - name: J
+  - name: K
+  - name: L
+  - name: M

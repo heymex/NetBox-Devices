@@ -1,0 +1,13 @@
+---
+manufacturer: Extreme Networks
+model: NI-MLX-10Gx4 4-port 10GbE Module
+part_number: NI-MLX-10Gx4
+interfaces:
+  - name: 10GigabitEthernet{module}/1
+    type: 10gbase-x-xfp
+  - name: 10GigabitEthernet{module}/2
+    type: 10gbase-x-xfp
+  - name: 10GigabitEthernet{module}/3
+    type: 10gbase-x-xfp
+  - name: 10GigabitEthernet{module}/4
+    type: 10gbase-x-xfp

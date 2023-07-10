@@ -1,0 +1,33 @@
+---
+manufacturer:Corning
+model: Fiber Splice Cassette, 12 Fibers, SC Duplex Adapters
+part_number: CCH-CS12-91-P00KJ
+front-ports:
+  - name: '01'
+    type: sc
+    rear_port: '01'
+    rear_port_position: 1
+  - name: '02'
+    type: sc
+    rear_port: '01'
+    rear_port_position: 2
+  - name: '03'
+    type: sc
+    rear_port: '01'
+    rear_port_position: 3
+  - name: '04'
+    type: sc
+    rear_port: '01'
+    rear_port_position: 4
+  - name: '05'
+    type: sc
+    rear_port: '01'
+    rear_port_position: 5
+  - name: '06'
+    type: sc
+    rear_port: '01'
+    rear_port_position: 6
+rear-ports:
+  - name: '01'
+    type: mpo
+    positions: 6
