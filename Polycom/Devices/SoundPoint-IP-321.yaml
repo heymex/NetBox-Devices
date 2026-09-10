@@ -1,0 +1,24 @@
+---
+manufacturer: Polycom
+model: SoundPoint IP 321
+slug: polycom-soundpoint-ip-321
+part_number: 2200-12360-025
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 1.37
+weight_unit: lb
+comments: |
+  Two-line SIP phone with a single 10/100 Ethernet port (no PC pass-through).
+  IEEE 802.3af PoE Class 1; optional 24V DC @ 500mA external adapter.
+  [SoundPoint IP 321/331 Datasheet](https://www.voipon.co.uk/documents/polycom_soundpoint_ip321_331_datasheet.pdf)
+power-ports:
+  - name: PSU
+    type: dc-terminal
+    maximum_draw: 12
+    description: Optional 24V DC @ 500mA universal AC adapter
+interfaces:
+  - name: LAN
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type1-ieee802.3af

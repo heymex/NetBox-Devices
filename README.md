@@ -14,3 +14,4 @@ Extreme Networks BR-MLX-1GFx24-X
 Hubbell FCR4U12SPVT
 Hubbell OCSPLCD12M4
 AMP Cat5E Patch Panel (24 Port, 1RU)
+Polycom SoundPoint IP 321
