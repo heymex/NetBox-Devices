@@ -1,0 +1,18 @@
+---
+manufacturer: Extreme Networks
+model: AP121
+slug: extreme-networks-ap121
+part_number: AP121
+u_height: 0
+is_full_depth: false
+weight: 0.36
+weight_unit: kg
+comments: 'Aerohive/Extreme indoor AP. Dual-radio 802.11n, 2x2:2, integrated antennas. One 10/100/1000 802.3af PD port (eth0). Optional 12 VDC adapter is not modeled.'
+interfaces:
+  - name: Wifi
+    type: ieee802.11n
+  - name: eth0
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+description: ExtremeWireless AP121 802.11n 2x2:2 indoor access point

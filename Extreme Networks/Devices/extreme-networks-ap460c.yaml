@@ -1,0 +1,20 @@
+---
+manufacturer: Extreme Networks
+model: AP460C
+slug: extreme-networks-ap460c
+part_number: AP460C
+u_height: 0
+is_full_depth: false
+weight: 1.8
+weight_unit: kg
+comments: 'Wi-Fi 6 tri-radio outdoor AP, integrated omni antennas, IP67. Eth0 is 100/1000/2500BASE-T and the 802.3at PD port; Eth1 is 10/100/1000BASE-T. [AP460C Quick Reference](https://documentation.extremenetworks.com/wireless/QRG/AP460C_QuickRef.pdf)'
+interfaces:
+  - name: Wifi
+    type: ieee802.11ax
+  - name: eth0
+    type: 2.5gbase-t
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+  - name: eth1
+    type: 1000base-t
+description: ExtremeWireless AP460C Wi-Fi 6 tri-radio outdoor access point, omni antenna

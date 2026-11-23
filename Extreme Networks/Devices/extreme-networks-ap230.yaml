@@ -1,0 +1,20 @@
+---
+manufacturer: Extreme Networks
+model: AP230
+slug: extreme-networks-ap230
+part_number: AP230
+u_height: 0
+is_full_depth: false
+weight: 0.73
+weight_unit: kg
+comments: 'Aerohive/Extreme indoor AP. Dual-radio 802.11ac, 3x3:3. Two 10/100/1000 ports with link aggregation; PoE is on eth0. 802.3af is the minimum to run the radios; 802.3at enables the USB port.'
+interfaces:
+  - name: Wifi
+    type: ieee802.11ac
+  - name: eth0
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type1-ieee802.3af
+  - name: eth1
+    type: 1000base-t
+description: ExtremeWireless AP230 Wi-Fi 5 (802.11ac) 3x3:3 indoor access point

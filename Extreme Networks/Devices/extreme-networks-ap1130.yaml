@@ -1,0 +1,18 @@
+---
+manufacturer: Extreme Networks
+model: AP1130
+slug: extreme-networks-ap1130
+part_number: AP1130
+u_height: 0
+is_full_depth: false
+weight: 1.08
+weight_unit: kg
+comments: 'Aerohive/Extreme outdoor AP, IP67. Dual-radio 802.11ac, 2x2:2, four N-type antenna connectors. One 10/100/1000 802.3at PD port. Optional 12 VDC input is not modeled. Weight is the chassis without brackets or antennas (2.6 lb).'
+interfaces:
+  - name: Wifi
+    type: ieee802.11ac
+  - name: eth0
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+description: ExtremeWireless AP1130 Wi-Fi 5 (802.11ac) 2x2:2 outdoor access point

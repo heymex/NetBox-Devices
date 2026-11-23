@@ -1,0 +1,18 @@
+---
+manufacturer: Extreme Networks
+model: AP170
+slug: extreme-networks-ap170
+part_number: AP170
+u_height: 0
+is_full_depth: false
+weight: 1.95
+weight_unit: kg
+comments: 'Aerohive/Extreme outdoor AP, IP68. Dual-radio 802.11n, 2x2:2, four N-type antenna connectors. One 10/100/1000 802.3at PD port. Weight is 4.3 lb without antennas and brackets (6.05 lb with both).'
+interfaces:
+  - name: Wifi
+    type: ieee802.11n
+  - name: eth0
+    type: 1000base-t
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+description: ExtremeWireless AP170 802.11n 2x2:2 outdoor access point

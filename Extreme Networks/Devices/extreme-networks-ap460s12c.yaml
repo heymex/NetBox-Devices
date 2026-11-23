@@ -1,0 +1,20 @@
+---
+manufacturer: Extreme Networks
+model: AP460S12C
+slug: extreme-networks-ap460s12c
+part_number: AP460S12C
+u_height: 0
+is_full_depth: false
+weight: 1.8
+weight_unit: kg
+comments: 'Same platform as the AP460C with a 120-degree sector antenna (AP460S6C is the 60-degree variant). Eth0 is 100/1000/2500BASE-T and the 802.3at PD port; Eth1 is 10/100/1000BASE-T. [AP460C Quick Reference](https://documentation.extremenetworks.com/wireless/QRG/AP460C_QuickRef.pdf)'
+interfaces:
+  - name: Wifi
+    type: ieee802.11ax
+  - name: eth0
+    type: 2.5gbase-t
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+  - name: eth1
+    type: 1000base-t
+description: ExtremeWireless AP460S12C Wi-Fi 6 tri-radio outdoor AP, 120-degree sector antenna
